@@ -1,0 +1,18 @@
+{
+  "name": "mico/init",
+  "type": "library",
+  "license": "MIT",
+  "description": "",
+  "authors": [
+    {
+      "name": "Arash Ghamkhari",
+      "email": "dev@ghamkhari.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Mico\\Init": "src"
+    }
+  }
+}
