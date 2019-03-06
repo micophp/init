@@ -9,10 +9,20 @@
       "email": "dev@ghamkhari.com"
     }
   ],
-  "require": {},
+  "require": {
+    "evenement/evenement": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
   "autoload": {
     "psr-4": {
-      "Mico\\Init": "src"
+      "Mico\\Init\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mico\\Init\\Tests\\": "tests"
     }
   }
 }
